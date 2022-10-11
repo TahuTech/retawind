@@ -29,12 +29,14 @@ export default function Landing() {
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
                   <h1 className="text-white font-semibold text-5xl">
-                    Your story starts with us.
+                    Layanan Kami
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
-                    This is a simple example of a Landing Page you can build
-                    using Notus React. It features multiple CSS components based
-                    on the Tailwind CSS design system.
+                    Jasa Instalasi dan pemasangan jaringan komputer network Lan,
+                    Wifi Access Point, Point to Point/ Point to Multi Point, Server,
+                    Fiber Optik, IP Cctv, IP Pabx, , Router, IT Manage Services, Website Service,
+                    AntiVirus, Rental yang berlokasi di
+                    Gresik & Surabaya dengan harga murah.
                   </p>
                 </div>
               </div>
@@ -280,7 +282,7 @@ export default function Landing() {
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Ryan Tompson</h5>
+                    <h5 className="text-xl font-bold">Ali</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Web Developer
                     </p>
@@ -315,9 +317,9 @@ export default function Landing() {
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Romina Hadid</h5>
+                    <h5 className="text-xl font-bold">Bagus</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      Marketing Specialist
+                      Founder and CEO
                     </p>
                     <div className="mt-6">
                       <button
@@ -344,9 +346,9 @@ export default function Landing() {
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Alexa Smith</h5>
+                    <h5 className="text-xl font-bold">Asrori</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      UI/UX Designer
+                      Administration
                     </p>
                     <div className="mt-6">
                       <button
@@ -379,7 +381,7 @@ export default function Landing() {
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Jenna Kardi</h5>
+                    <h5 className="text-xl font-bold">Ifan</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Founder and CEO
                     </p>

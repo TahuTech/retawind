@@ -37,7 +37,6 @@ export default function Navbar(props) {
             
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="flex items-center">
-                <PagesDropdown />
               </li>
               <li className="flex items-center">
                 <a
@@ -67,21 +66,13 @@ export default function Navbar(props) {
                   href="https://github.com/creativetimofficial/notus-react?ref=nr-auth-navbar"
                   target="_blank"
                 >
-                  <i className="lg:text-blueGray-200 text-blueGray-400 fab fa-github text-lg leading-lg " />
+                  <i className="lg:text-blueGray-200 text-blueGray-400 fab fa-whatsapp text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">Star</span>
                 </a>
               </li>
 
               <li className="flex items-center">
-                <button
-                  className="bg-white text-blueGray-700 active:bg-blueGray-50 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
-                  type="button"
-                >
-                  <Link
-                    to="/landing">
-                    Layanan Kami
-                  </Link>
-                </button>
+                
               </li>
             </ul>
           </div>

@@ -41,7 +41,7 @@ export default function Index() {
                   href="/landing"
                   className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-orange-500 active:bg-orange-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
-                  Lebih Lanjut
+                  Lebih Lengkap
                 </a>
               
               </div>

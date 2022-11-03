@@ -9,25 +9,37 @@ export default function Index() {
   return (
     <>
       <IndexNavbar fixed />
+       <img
+          // className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860px"
+        className="absolute top-0 w-full h-full opacity-67 bg-black
+         bg-center bg-cover"
+        //className="absolute top-0 w-full h-full bg-center bg-cover"
+        
+          // src={require("assets/img/pattern_react.png").default}
+          alt="..."
+          src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        
+        />
       <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
         <div className="container mx-auto items-center flex flex-wrap">
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
-              <h2 className="font-semibold text-4xl text-blueGray-600">
-                Bit Solution
+              <h2 className="font-semibold text-5xl text-amber-600 ">
+                Website 
               </h2>
-              <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                Konsultan IT & Building network yang profesional serta berpengalaman di Indonesia,
-                Menyediakan dan melayani kebutuhan anda
-                | Lan,Wifi Access Point, Point to Point/Point to Multi Point, Server, Fiber Optik, IP CCTV, IP Pabx,
-                Access Door,  IT Manage Services, Website Service, AntiVirus, Rental yang berlokasi di Gresik dengan harga
-                yang Bersahabat, Berkualitas, Berpengalaman, Bergaransi,
-                Bersertifikasi di indonesia.
+              <h2 className="font-semibold text-5xl text-amber-600">
+                Development & 
+              </h2>
+              <h2 className="font-semibold text-5xl text-amber-600">
+                IT Solution
+              </h2>
+              <p className="mt-4 text-lg leading-relaxed text-amber-400">
+                Bangun Bisnismu Dengan Website Yang Lebih Baik
               </p>
-              <div className="mt-12">
+              <div className="mt-10">
                 <a
                   href="/landing"
-                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-orange-500 active:bg-orange-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
                   Lebih Lanjut
                 </a>
@@ -37,11 +49,14 @@ export default function Index() {
           </div>
         </div>
 
-        <img
-          className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860px"
-          src={require("assets/img/pattern_react.png").default}
+        {/* <img
+          // className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860px"
+          className="absolute top-0 w-full h-full bg-center bg-cover"
+          // src={require("assets/img/pattern_react.png").default}
           alt="..."
-        />
+          src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          w-full h-full absolute opacity-75 bg-black
+        /> */}
       </section>
 
       <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">

@@ -9,30 +9,26 @@ export default function Index() {
   return (
     <>
       <IndexNavbar fixed />
-       <img 
-          // className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860px"
+      <img
+        // className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860px"
         className=" backdrop-brightness-50 absolute top-0 w-full h-full opacity-67 bg-black
-         bg-center bg-cover "  
+        bg-center bg-cover "
         //className="absolute top-0 w-full h-full bg-center bg-cover"
-        
-          // src={require("assets/img/pattern_react.png").default}
-          alt="..."
+
+        // src={require("assets/img/pattern_react.png").default}
+        alt="..."
         // src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-        />
+      />
       <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
         <div className="container mx-auto items-center flex flex-wrap">
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
-              <h2 className="font-semibold text-5xl text-white ">
-                Website 
-              </h2>
+              <h2 className="font-semibold text-5xl text-white ">Website</h2>
               <h2 className="font-semibold text-5xl text-white">
-                Development & 
+                Development &
               </h2>
-              <h2 className="font-semibold text-5xl text-white">
-                IT Solution
-              </h2>
+              <h2 className="font-semibold text-5xl text-white">IT Solution</h2>
               <p className="mt-4 text-lg leading-relaxed text-white">
                 Bangun Bisnismu Dengan Website Yang Lebih Baik
               </p>
@@ -43,7 +39,6 @@ export default function Index() {
                 >
                   Lebih Lengkap
                 </a>
-              
               </div>
             </div>
           </div>

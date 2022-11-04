@@ -31,7 +31,6 @@ export default function Landing() {
                   <h1 className="text-white font-semibold text-5xl">
                     Layanan Kami
                   </h1>
-                  
                 </div>
               </div>
             </div>
@@ -108,33 +107,32 @@ export default function Landing() {
 
             <div className="flex flex-wrap items-center mt-32">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                  <i className="fas fa-user-friends text-xl"></i>
-                </div>
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                  Working with us is a pleasure
+                  Siapa Kami ?
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                  Don't let your uses guess by attaching tooltips and popoves to
-                  any element. Just make sure you enable them first via
-                  JavaScript.
+                  Kami merupakan salah satu yang terbaik di bidang Konsultan IT
+                  & Building network yang profesional dan berpengalaman di
+                  Indonesia, Kami sebagai vendor IT juga menyediakan serta
+                  melayani kebutuhan anda | Pengadaan CCTV Rumah/Perusahaan,
+                  Setting Jaringan Kantor, Pengadaan Alat Periferal Kantor, Jasa
+                  PTP Atau PTMP, Pembuatan Website Perusahaan, Rental yang
+                  berlokasi di Gresik dan Surabaya dengan harga yang sangat
+                  Bersahabat, Berkualitas, Berpengalaman, Bergaransi,
+                  Bersertifikasi dan kami melayani seluruh wilayah indonesia
                 </p>
-                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-                  The kit comes with three pre-built pages to help you get
-                  started faster. You can change the text and images and you're
-                  good to go. Just make sure you enable them first via
-                  JavaScript.
-                </p>
+
                 <Link to="/" className="font-bold text-blueGray-700 mt-8">
-                  Check Notus React!
+                  Call Zota Network!
                 </Link>
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-orange-500">
                   <img
                     alt="..."
-                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
+                    // src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
+                    src={require("assets/img/zota/logoclr.png").default}
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">
@@ -146,17 +144,12 @@ export default function Landing() {
                     >
                       <polygon
                         points="-30,95 583,95 583,65"
-                        className="text-lightBlue-500 fill-current"
+                        className="text-orange-500 fill-current"
                       ></polygon>
                     </svg>
                     <h4 className="text-xl font-bold text-white">
-                      Top Notch Services
+                      Zota Network
                     </h4>
-                    <p className="text-md font-light mt-2 text-white">
-                      The Arctic Ocean freezes every winter and much of the
-                      sea-ice then thaws every summer, and that process will
-                      continue whatever happens.
-                    </p>
                   </blockquote>
                 </div>
               </div>

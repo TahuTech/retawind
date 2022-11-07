@@ -33,12 +33,22 @@ export default function Index() {
                 Bangun Bisnismu Dengan Website Yang Lebih Baik
               </p>
               <div className="mt-10">
-                <a
+                {/* <a
                   href="/landing"
-                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-orange-500 active:bg-orange-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-orange-500 hover:bg-orange-700 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
                   Lebih Lengkap
-                </a>
+                </a> */}
+                <button
+                  className="bg-orange-500 text-white active:bg-orange-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                  type="button"
+                >
+                  <Link
+                    to="/landing"
+                  >
+                    Lebih Lanjut
+                  </Link>
+                </button>
               </div>
             </div>
           </div>

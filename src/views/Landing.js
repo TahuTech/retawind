@@ -67,8 +67,8 @@ export default function Landing() {
                     </div>
                     <h6 className="text-xl font-semibold">IT Solution</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Divide details about your product or agency work into
-                      parts. A paragraph describing a feature will be enough.
+                      Kami Membantu Masalah Anda Tentang Teknologi Mulai dari Pembuatan Website, Pemasangan CCTV 
+                      dan masih banyak lainnya.
                     </p>
                   </div>
                 </div>
@@ -80,10 +80,9 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
                       <i className="fas fa-globe"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Website Developer</h6>
+                    <h6 className="text-xl font-semibold">Website Development</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Keep you user engaged by providing meaningful information.
-                      Remember that by this time, the user is curious.
+                      Kami Siap Merangcang, Mendesain, Mengembangkan, dan Memodifikasi Website Untuk Segala Keperluan Anda. 
                     </p>
                   </div>
                 </div>
@@ -97,8 +96,7 @@ export default function Landing() {
                     </div>
                     <h6 className="text-xl font-semibold">Setup CCTV</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Write a few lines about each one. A paragraph describing a
-                      feature will be enough. Keep you user engaged!
+                      Melayani Pemasangan CCTV, Instalasi CCTV, Tarik Kabel CCTV, Perawatan CCTV, Pemindahan CCTV
                     </p>
                   </div>
                 </div>
@@ -122,16 +120,16 @@ export default function Landing() {
                   Bersertifikasi dan kami melayani seluruh wilayah indonesia
                 </p>
 
-                <Link to="/" className="font-bold text-blueGray-700 mt-8">
-                  Call Zota Network!
-                </Link>
+                <a
+                  href="#"
+                  className="font-bold text-blueGray-700 mt-8"> Hubungi Zota Network!
+              </a>
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-orange-500">
                   <img
                     alt="..."
-                    // src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
                     src={require("assets/img/zota/logoclr.png").default}
                     className="w-full align-middle rounded-t-lg"
                   />

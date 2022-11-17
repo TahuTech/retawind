@@ -1,4 +1,5 @@
 import React from "react";
+// eslint-disable-next-line no-unused-vars
 import { Link } from "react-router-dom";
 
 // components
@@ -84,6 +85,15 @@ export default function Landing() {
                     <p className="mt-2 mb-4 text-blueGray-500">
                       Kami Siap Merangcang, Mendesain, Mengembangkan, dan Memodifikasi Website Untuk Segala Keperluan Anda. 
                     </p>
+                    <a
+                  href="/Website"
+                  className="bg-blue-500 text-blue active:bg-blue-600 font-bold uppercase 
+                  text-sm px-6 py-3 rounded shadow hover:shadow-lg hover:opacity-80 outline-none 
+                  focus:outline-none mr-1 mb-1 ease-linear 
+                  transition duration-300 ease-in-out"
+                >
+                    Lebih Lanjut
+                </a>
                   </div>
                 </div>
               </div>
@@ -121,7 +131,7 @@ export default function Landing() {
                 </p>
 
                 <a
-                  href="#"
+                  href="/website"
                   className="font-bold text-blueGray-700 mt-8"> Hubungi Zota Network!
               </a>
               </div>

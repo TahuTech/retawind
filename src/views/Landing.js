@@ -21,7 +21,7 @@ export default function Landing() {
             }}
           >
             <span
-              id="blackOverlay"
+              id="LayananKami"
               className="w-full h-full absolute opacity-75 bg-black"
             ></span>
           </div>
@@ -71,6 +71,15 @@ export default function Landing() {
                       Kami Membantu Masalah Anda Tentang Teknologi Mulai dari Pembuatan Website, Pemasangan CCTV 
                       dan masih banyak lainnya.
                     </p>
+                    <a
+                  href="/Website"
+                  className="bg-blue-500 text-blue active:bg-blue-600 font-bold uppercase 
+                  text-sm px-6 py-3 rounded shadow hover:shadow-lg hover:opacity-80 outline-none 
+                  focus:outline-none mr-1 mb-1 ease-linear 
+                  transition duration-300 ease-in-out"
+                >
+                    Lebih Lanjut
+                </a>
                   </div>
                 </div>
               </div>
@@ -106,8 +115,17 @@ export default function Landing() {
                     </div>
                     <h6 className="text-xl font-semibold">Setup CCTV</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Melayani Pemasangan CCTV, Instalasi CCTV, Tarik Kabel CCTV, Perawatan CCTV, Pemindahan CCTV
+                      Melayani Pemasangan CCTV, Instalasi CCTV, Tarik Kabel CCTV, Perawatan CCTV, Pemindahan CCTV, Serta Semua Layanan CCTV.
                     </p>
+                    <a
+                  href="/Website"
+                  className="bg-blue-500 text-blue active:bg-blue-600 font-bold uppercase 
+                  text-sm px-6 py-3 rounded shadow hover:shadow-lg hover:opacity-80 outline-none 
+                  focus:outline-none mr-1 mb-1 ease-linear 
+                  transition duration-300 ease-in-out"
+                >
+                    Lebih Lanjut
+                </a>
                   </div>
                 </div>
               </div>
@@ -115,7 +133,7 @@ export default function Landing() {
 
             <div className="flex flex-wrap items-center mt-32">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-                <h3 className="text-3xl mb-2 font-semibold leading-normal">
+                <h3 className="text-3xl mb-2 font-semibold leading-normal" id="Zota">
                   Siapa Kami ?
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
@@ -220,11 +238,9 @@ export default function Landing() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold">Here are our heroes</h2>
+                <h2 className="text-4xl font-semibold">Perkenalkan Kami</h2>
                 <p className="text-lg leading-relaxed m-4 text-blueGray-500">
-                  According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSIDClead scentist, puts the
-                  potentially record maximum.
+                  Berikut Biodata Kami Sebagai Bagian Besar Dari Zota Network.
                 </p>
               </div>
             </div>

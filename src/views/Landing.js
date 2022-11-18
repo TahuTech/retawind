@@ -67,18 +67,15 @@ export default function Landing() {
                       <i className="fas fa-trophy"></i>
                     </div>
                     <h6 className="text-xl font-semibold">IT Solution</h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">
+                    <p className="mt-2 mb-6 text-blueGray-500">
                       Kami Membantu Masalah Anda Tentang Teknologi Mulai dari Pembuatan Website, Pemasangan CCTV 
                       dan masih banyak lainnya.
                     </p>
-                    <a
+                <a
                   href="/Website"
-                  className="bg-blue-500 text-blue active:bg-blue-600 font-bold uppercase 
-                  text-sm px-6 py-3 rounded shadow hover:shadow-lg hover:opacity-80 outline-none 
-                  focus:outline-none mr-1 mb-1 ease-linear 
-                  transition duration-300 ease-in-out"
+                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-red-500 active:bg-red-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
-                    Lebih Lanjut
+                  Lebih Lanjut
                 </a>
                   </div>
                 </div>
@@ -91,17 +88,14 @@ export default function Landing() {
                       <i className="fas fa-globe"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Website Development</h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">
+                    <p className="mt-2 mb-6 text-blueGray-500">
                       Kami Siap Merangcang, Mendesain, Mengembangkan, dan Memodifikasi Website Untuk Segala Keperluan Anda. 
                     </p>
                     <a
                   href="/Website"
-                  className="bg-blue-500 text-blue active:bg-blue-600 font-bold uppercase 
-                  text-sm px-6 py-3 rounded shadow hover:shadow-lg hover:opacity-80 outline-none 
-                  focus:outline-none mr-1 mb-1 ease-linear 
-                  transition duration-300 ease-in-out"
+                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
-                    Lebih Lanjut
+                  Lebih Lanjut
                 </a>
                   </div>
                 </div>
@@ -114,17 +108,14 @@ export default function Landing() {
                       <i className="fas fa-video"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Setup CCTV</h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">
+                    <p className="mt-2 mb-6 text-blueGray-500">
                       Melayani Pemasangan CCTV, Instalasi CCTV, Tarik Kabel CCTV, Perawatan CCTV, Pemindahan CCTV, Serta Semua Layanan CCTV.
                     </p>
                     <a
                   href="/Website"
-                  className="bg-blue-500 text-blue active:bg-blue-600 font-bold uppercase 
-                  text-sm px-6 py-3 rounded shadow hover:shadow-lg hover:opacity-80 outline-none 
-                  focus:outline-none mr-1 mb-1 ease-linear 
-                  transition duration-300 ease-in-out"
+                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-emerald-500 active:bg-emerald-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
-                    Lebih Lanjut
+                  Lebih Lanjut
                 </a>
                   </div>
                 </div>
@@ -149,7 +140,7 @@ export default function Landing() {
                 </p>
 
                 <a
-                  href="/website"
+                  href="/contact"
                   className="font-bold text-blueGray-700 mt-8"> Hubungi Zota Network!
               </a>
               </div>
